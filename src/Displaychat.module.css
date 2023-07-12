@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&family=Roboto&family=Single+Day&display=swap');
+@media (max-width: 768px) {
+    .left {
+      display: block;
+      width: 100%;
+    }
+  
+    .sectionright {
+      display: none;
+    }
+  }
+  
+  .sectionright {
+    flex-basis: 75%;
+    background: #f7ecdc;
+  }
+  .design_img {
+    position: relative;
+    top:100px;
+    left:340px;
+  }
+  .heading {
+    color: #000;
+    font-size: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    position: relative;
+    top: 80px;
+    text-align: center;
+  }
+  .para_container {
+    position: relative;
+    top: 100px;
+    text-align: center;
+  }
+  .para1 {
+    color: #292929;
+    font-size: 22px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.44px;
+  }
+  
+  .lock_wrapper {
+    position: relative;
+    display: flex;
+    top: 260px;
+    left: 540px;
+  }
+  
+  .lock_text{
+      margin-left: 10px;
+  margin-top: 5px;
+  }
+ 
