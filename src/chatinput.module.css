@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter&family=Roboto:wght@500&display=swap");
+body {
+  overflow: hidden;
+  /* position: relative; */
+}
+.right_side {
+  flex-basis: 75%;
+  background: #f7ecdc;
+}
+
+.top {
+  position: fixed;
+  width: 1078px;
+  height: 98px;
+  background: #e8e8e8;
+}
+.in_top {
+  display: flex;
+}
+.circle_img {
+  position: relative;
+  top: 19px;
+  width: 68.901px;
+  height: 68.901px;
+}
+.title {
+  font-family: Roboto;
+  font-size: 20.115px;
+  position: relative;
+  color: white;
+  top: 45px;
+  left: 47px;
+  z-index: 1;
+}
+.enter_text {
+  position: relative;
+  top: 40px;
+  left: 20px;
+  font-family: Roboto;
+  letter-spacing: 0.48px;
+  font-weight: 500;
+}
+
+.cursor {
+  position: relative;
+  bottom: 60px;
+  /* overflow: scroll; */
+}
+.message {
+  position: relative;
+  bottom: 80px;
+  top: 50px;
+}
+
+.message::-webkit-scrollbar {
+  position: absolute;
+}
+
+.text_wrapper {
+  position: relative;
+  padding-bottom: 30px;
+  top: 463px;
+  height: 245px;
+  background-color: #e8e8e8;
+}
+
+.t_msg_wrap {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 160px;
+  left: 120px;
+  padding-right: 150px;
+}
+.t_msg {
+  line-height: 25px;
+}
+.t_data_time {
+  position: relative;
+  bottom: 120px;
+  left: 15px;
+}
+.input_box {
+  position: fixed;
+  top: 490px;
+  right: 0px;
+}
+
+.enterbtn {
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  right: 10px;
+  top: 80px;
+}
+
+.type_text {
+  border-radius: 9px;
+  border: 1px solid #ccc;
+  width: 850px;
+  height: 175px;
+  margin-top: -50px;
+}
+
+.input_text::placeholder {
+  color: #9a9a9a;
+  position: absolute;
+  left: 10px;
+  transform: translateY(-10%);
+}
+@media (max-width: 768px) {
+  body {
+    overflow: fixed;
+  }
+
+  .right_side {
+    position: relative;
+    right: 220px;
+  }
+
+  .top {
+    width: 100%;
+  }
+
+  .circle_img {
+    top: 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .title {
+    font-size: 16px;
+    top: 30px;
+    left: 20px;
+  }
+
+  .enter_text {
+    top: 25px;
+    left: 80px;
+    font-size: 18px;
+  }
+
+  .cursor {
+    overflow: scroll;
+  }
+  .text_wrapper {
+    top: 700px;
+
+    height: 200px;
+  }
+  .message {
+    display: flex;
+    position: relative;
+    bottom: 80px ;
+    top: 50px   ;
+    width: 390px;
+  }
+
+  .t_msg_wrap {
+    position: fixed;
+    top: 300px;
+    bottom: 140px;
+    left: 20px;
+    padding-right: 20px;
+  }
+
+  .type_text {
+    width: 371px;
+    height: 122px;
+    position: relative;
+    left: 10px;
+    top: 220px;
+  }
+
+  .enterbtn {
+    width: 21px;
+    height: 17.684px;
+    top: 290px;
+    right: 20px;
+  }
+}
