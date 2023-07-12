@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Inter&family=Roboto:wght@500&display=swap");
+
+
+
+.title {
+  flex-basis: 25%;
+  background: #fff;
+}
+
+h1 {
+  color: #000;
+  font-size: 31.52px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.63px;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+button {
+  width: 100%;
+  max-width: 320px;
+  height: 51px;
+  flex-shrink: 0;
+  border-radius: 45px;
+  background: #000;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.btn_text {
+  color: #fff;
+  font-size: 27px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 97.688%;
+  letter-spacing: 0.54px;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.modal {
+  background: #fff;
+  width: 400px;
+  max-width: 90%;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.modal-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.create-button {
+  padding: 7px 20px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.group_container {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.grp_name {
+  color: #000;
+  font-size: 20.67px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.413px;
+  cursor: pointer;
+}
+.group-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.group-circle span {
+  color: white;
+  font-size: 20.67px;
+  font-family: Roboto;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: absolute;
+  margin-left: 14px;
+}
+
+.hidden {
+  display: none;
+}
+
+.selectedImage {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+
+.pink-color {
+  background: #f7ecdc;
+  width: 411px;
+  height: 98px;
+}
+
+.pink-color-image {
+ 
+  
+  background: #f7ecdc;
+}
+
+@media (max-width: 768px) {
+  .left {
+    display: block;
+    width: 100%;
+  }
+
+  .right {
+    display: none;
+  }
+
+  h1 {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+  .Note {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .button {
+    position: relative;
+    overflow: hidden;
+    right: 13px;
+  }
+}
